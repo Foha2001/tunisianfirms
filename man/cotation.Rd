@@ -2,7 +2,9 @@
 % Please edit documentation in R/cotation.R
 \name{cotation}
 \alias{cotation}
-\title{Tunisian firm cotation}
+\title{Tunisian firm cotation
+
+Get prices from Tunis Stock Exchange}
 \usage{
 cotation(x)
 }
@@ -13,5 +15,7 @@ cotation(x)
 Historical Prices Graph
 }
 \description{
+Tunisian firm cotation
+
 Get prices from Tunis Stock Exchange
 }

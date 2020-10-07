@@ -1,6 +1,6 @@
 ######## programme pour suivre l'évolution des cours de la Bourse
 #de TUNIS##########program 1V1##
-#' Tunisian firm cotation
+#' @title Tunisian firm cotation
 #'
 #' Get prices from Tunis Stock Exchange
 #' @param x the ticker symbol of firm
