@@ -9,7 +9,7 @@ A data frame with 407199 rows and 3 variables:
 \describe{
   \item{seance}{date of cotation, daily}
   \item{val}{ticker, in carats}
-  \itel{p}{price, in tunisian dinars}
+  \item{p}{price, in tunisian dinars}
 }
 }
 \source{

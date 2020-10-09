@@ -6,7 +6,7 @@
 #' \describe{
 #'   \item{seance}{date of cotation, daily}
 #'   \item{val}{ticker, in carats}
-#'   \itel{p}{price, in tunisian dinars}
+#'   \item{p}{price, in tunisian dinars}
 #' }
 #' @source \url{https://tinyurl.com/fouedhamouda}
 "sample_data"

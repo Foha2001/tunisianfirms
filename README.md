@@ -1,23 +1,25 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-tunisianfirms
-=============
+
+# tunisianfirms
 
 <!-- badges: start -->
+
 <!-- badges: end -->
-The goal of tunisianfirms is to diffuses cotation of Tunisian stock Exchange Firms
 
-Installation
-------------
+The goal of tunisianfirms is to diffuses cotation of Tunisian stock
+Exchange Firms
 
-You can install the released version of tunisianfirms from [CRAN](https://CRAN.R-project.org) with:
+## Installation
+
+You can install the released version of tunisianfirms from
+[CRAN](https://CRAN.R-project.org) with:
 
 ``` r
 install.packages("tunisianfirms")
 ```
 
-Example
--------
+## Example
 
 This is a basic example which shows you how to solve a common problem:
 
@@ -25,14 +27,12 @@ This is a basic example which shows you how to solve a common problem:
 library(tunisianfirms)
 ## basic example code
 cotation("Attijari Bank")
-#> √ Setting active project to 'C:/Users/Foued/OneDrive/DOCUMENTS/tunisianfirms'
+#> √ Setting active project to 'C:/Users/foha2/OneDrive/DOCUMENTS/tunisianfirms'
 #> √ Saving 'sample_data' to 'data/sample_data.rda'
 #> * Document your data (see 'https://r-pkgs.org/data.html')
 ```
 
 <img src="man/figures/README-example-1.png" width="100%" />
-
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
 
 ``` r
 head(sample_data)
@@ -45,13 +45,7 @@ head(sample_data)
 #> 6 2019-01-03 SAH DA 1/14 25 0.01
 ```
 
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date.
-
-You can also embed plots, for example:
-
     #> √ Saving 'sample_data' to 'data/sample_data.rda'
     #> * Document your data (see 'https://r-pkgs.org/data.html')
 
 <img src="man/figures/README-pressure-1.png" width="100%" />
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub!
