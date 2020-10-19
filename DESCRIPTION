@@ -16,4 +16,5 @@ Suggests:
     rmarkdown
 VignetteBuilder: knitr
 Imports: 
-    xts
+    xts,
+    ggplot2
