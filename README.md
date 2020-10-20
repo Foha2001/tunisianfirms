@@ -7,17 +7,26 @@
 
 <!-- badges: end -->
 
-The goal of tunisianfirms is to diffuses cotation of Tunisian stock
+The goal of tunisianfirms is to spread cotation of Tunisian stock
 Exchange Firms
 
 ## Installation
 
-You can install the released version of tunisianfirms from
+Coming soon You can install the released version of tunisianfirms from
 [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
 install.packages("tunisianfirms")
 ```
+
+or
+
+``` r
+library(devtools)
+devtools::install_github("Foha2001/tunisianfirms")
+```
+
+you have to install devtools before, when installing from github
 
 ## Example
 
