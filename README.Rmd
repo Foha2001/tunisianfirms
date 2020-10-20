@@ -35,7 +35,7 @@ This is a basic example which shows you how to solve a common problem:
 ```{r example}
 library(tunisianfirms)
 ## basic example code
-cotation("Attijari Bank")
+cotation("ATTIJARIBANK")
 ```
 
 ```{r cars}
@@ -45,7 +45,7 @@ head(sample_data)
 
 
 ```{r pressure, echo = FALSE}
-cotation("Attijari Bank")
+cotation("TUNISAIR")
 ```
 
 

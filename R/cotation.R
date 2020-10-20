@@ -9,7 +9,8 @@
 #' @export
 cotation=function(x){
 ggplot2::ggplot(subset(sample_data, lib==x),ggplot2::aes(date,prix)) +
-        ggplot2::geom_line(color="blue", linetype = 19)
+        ggplot2::geom_line(color="blue",
+       linetype = 19)
 }
 
 
