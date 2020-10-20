@@ -2,16 +2,19 @@
 % Please edit documentation in R/cotation.R
 \name{cotation}
 \alias{cotation}
-\title{Get prices from Tunis Stock Exchange}
+\title{Show prices from Tunis Stock Exchange}
 \usage{
 cotation(x)
 }
 \arguments{
-\item{x}{the ticker symbol of firm}
+\item{"x"}{the ticker symbol of firm}
 }
 \value{
 Historical Prices Graph
 }
 \description{
-Get prices from Tunis Stock Exchange
+Show prices from Tunis Stock Exchange
+}
+\examples{
+cotation("STB")
 }
