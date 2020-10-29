@@ -2,6 +2,4 @@
 
 export(cotation)
 export(getcotation)
-importFrom(utils,"write.table,")
-importFrom(utils,write_xlsx)
-importFrom(utils,writexl)
+importFrom(writexl,write_xlsx)
