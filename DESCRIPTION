@@ -16,6 +16,5 @@ Suggests:
     rmarkdown
 VignetteBuilder: knitr
 Imports: 
-    xts,
     ggplot2,
-    dplyr
+    writexl
