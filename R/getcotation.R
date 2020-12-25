@@ -9,6 +9,7 @@
 #'  please verify your working directory with the command getwd() command
 #' @export
 #' @importFrom writexl write_xlsx
+#' @importFrom readxl read_excel
 #' @examples
 #' getcotation("STB")
 #' getcotation("TUNISAIR")
@@ -17,4 +18,6 @@ getcotation=function(y){
 sam=subset(sample_data, lib==y)
 write_xlsx(sam,"mydata.xlsx")
 paste("your file -mydata- is saved in your working directory")
+mydata <- read_excel("mydata.xlsx")
+View(mydata)
 }

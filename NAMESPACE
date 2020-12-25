@@ -2,4 +2,5 @@
 
 export(cotation)
 export(getcotation)
+importFrom(readxl,read_excel)
 importFrom(writexl,write_xlsx)
